@@ -4,6 +4,8 @@ lineas = archivo.read()
 lineas = lineas.lower()
 palabras = lineas.split()
 
+archivo.close()
+
 diccionario = {}
 for palabra in palabras:
     if palabra in diccionario:
